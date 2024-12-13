@@ -3,7 +3,7 @@
  * binary_tree_insert_left - Inserts leaf in left position of node
  * @parent: origin node
  * @value: content
- * @return: leaf/NULL
+ * Return: leaf/NULL
  */
 binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value)
 {
