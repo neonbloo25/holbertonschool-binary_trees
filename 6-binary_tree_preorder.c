@@ -1,8 +1,8 @@
 #include "binary_trees.h"
 /**
  * binary_tree_preorder - toggles through nodes in preorder fashion
- * @func: pre-order
- * @int: data in node
+ * @tree: pointer
+ * @func: preorder function
  */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int))
 {
